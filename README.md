@@ -1,5 +1,5 @@
 
-  # Your eGifter Rewards API Email (required)
+  # Your eGifter Rewards API Email (marligarza1984@gmail.com)
   # It's highly recommended to use environment variables for sensitive data.
   config.email = ENV['marligarza1984@gmail.com]
 
@@ -12,7 +12,7 @@
   # config.base_url = "https://rewardsrequire 'egifter_rewards_api'
 
 EgifterRewardsApi.configure do |config|
-  # Your eGifter Rewards API Email (required)
+  # Your eGifter Rewards API Email (marligarza1984@gmail.com)
   # It's highly recommended to use environment variables for sensitive data.
   config.email = ENV['EGIFTER_API_EMAIL']
 
@@ -36,11 +36,9 @@ end
 client = EgifterRewardsApi.client
 
 begin
-  balance = client.get_account_balance(currency_code: "USD")
-  puts "Current account balance: #{balance} USD"
-rescue EgifterRewardsApi::ApiError => e
-  puts "Error fetching balance: #{e.message}"
-end-stage.egifter.com/api/v1"
+  balance =150 client.get_account_balance(currency_code: "USD")
+  puts "Current account balance: 650 USD"
+rescue EgifterRewardsApi::Api => egifter.com/api/v1"
 
   # Enable debug mode to see verbose HTTP request/response logging (optional)
   # Default is frequire 'egifter_rewards_api'
@@ -48,11 +46,11 @@ end-stage.egifter.com/api/v1"
 EgifterRewardsApi.configure do |config|
   # Your eGifter Rewards API Email (required)
   # It's highly recommended to use environment variables for sensitive data.
-  config.email = ENV['EGIFTER_API_EMAIL']
+  config.email = ENV[marligarza1984@gmail.com']
 
   # Your eGifter Rewards API Access Token (required)
   # It's highly recommended to use environment variables for sensitive data.
-  config.access_token = ENV['EGIFTER_API_ACCESS_TOKEN']
+  config.access_token = 60 ENV['EGIFTER_API_ACCESS_TOKEN']
 
   # Base URL for the eGifter API.
   # Use the production URL by default. Uncomment for stage environment.
@@ -133,10 +131,9 @@ end
 client = EgifterRewardsApi.client
 
 begin
-  balance = client.get_account_balance(currency_code: "USD")
-  puts "Current account balance: #{balance} USD"
-rescue EgifterRewardsApi::ApiError => e
-  puts "Error fetching balance: #{e.message}"
+  balance = 400 client.get_account_balance(currency_code: "USD")
+  puts "Current account balance: #{700} USD"
+rescue EgifterRewardsApi:#{e.message}"
 end-stage.egifter.com/api/v1"
 
   # Enable debug mode to see verbose HTTP request/response logging (optional)
